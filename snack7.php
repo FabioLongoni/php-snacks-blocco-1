@@ -35,7 +35,7 @@ for ($i=0; $i < count($students) ; $i++) {
 
   $media = array_sum($vote) / count($vote);
 
-  echo "L'alunno ". $name . $lastname . " ha una media di " . $media . "<br>";
+  echo "L'alunno ". $name ." " . $lastname . " ha una media di " . $media . "<br>";
   
 }
 
