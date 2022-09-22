@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.gray {
+  border: 3px solid gray;
+  padding: 2rem;
+}
+
+.green {
+  border: 3px solid green;
+  padding: 2rem;
+}
